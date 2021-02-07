@@ -10,7 +10,7 @@
     color: #333;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 40px;
+    padding: 20px;
     margin: 10px;
 }
 
@@ -33,6 +33,64 @@
 .btn:hover {
     transform: scale(0.98);
 }
+
+
+/* Background & colored button */
+.bg-primary,
+.btn-primary {
+    background-color: var(--primary-clr);
+    color: white;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-clr);
+    color: white;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-clr);
+    color: white;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: white;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-clr);
+    color: black;
+}
+
+
+/* Text Sizes */
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
 
 .text-center {
     text-align: center;
@@ -60,7 +118,7 @@
 
 /* Margin */
 .my-1 {
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .my-2 {
@@ -116,7 +174,7 @@
     padding: 3rem 0;
 }
 
-.py5 {
+.py-5 {
     padding: 4rem 0;
 }
 
