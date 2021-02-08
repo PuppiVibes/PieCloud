@@ -54,6 +54,12 @@
     color: white;
 }
 
+.bg-light,
+.btn-light {
+    background-color: var(--light-clr);
+    color: black;
+}
+
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -63,10 +69,22 @@
     color: white;
 }
 
-.bg-light,
-.btn-light {
-    background-color: var(--light-clr);
-    color: black;
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-clr);
+}
+
+.text-secondary {
+    color: var(--secondary-clr);
+}
+
+.text-dark {
+    color: var(--dark-clr);
+}
+
+.text-light {
+    color: var(--light-clr);
 }
 
 
@@ -91,9 +109,30 @@
     font-size: 4rem;
 }
 
-
 .text-center {
     text-align: center;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-clr);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-clr);
+    color: white;
+}
+
+.alert-error {
+    background-color: var(--error-clr);
+    color: white;
 }
 
 .flex {
